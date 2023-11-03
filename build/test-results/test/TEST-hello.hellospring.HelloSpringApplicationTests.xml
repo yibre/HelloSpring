@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.hellospring.HelloSpringApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-13T00:36:37" hostname="oasys-00064" time="0.939">
+  <properties/>
+  <testcase name="contextLoads()" classname="hello.hellospring.HelloSpringApplicationTests" time="0.939"/>
+  <system-out><![CDATA[09:36:34.975 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hellospring.HelloSpringApplicationTests]: HelloSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:36:35.079 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hellospring.HelloSpringApplication for test class hello.hellospring.HelloSpringApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v3.2.0-M3)
+
+2023-10-13T09:36:35.477+09:00  INFO 3895442 --- [    Test worker] h.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 17.0.8.1 with PID 3895442 (started by oasys in /home/oasys/Desktop/javaproject/hello-spring)
+2023-10-13T09:36:35.480+09:00  INFO 3895442 --- [    Test worker] h.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2023-10-13T09:36:36.831+09:00  INFO 3895442 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-10-13T09:36:37.157+09:00  INFO 3895442 --- [    Test worker] h.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 1.946 seconds (process running for 3.006)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
